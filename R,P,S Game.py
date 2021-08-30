@@ -6,7 +6,7 @@ print("winning Rules of the rock paper scissor game as follows : \n"
       +"Paper vs Scissor -> scissor wins \n")
 
 while True:
-    print("Enter choice \n 1.Rock \n 2.Paper \n 3.Scissor \n")
+    print("Enter your choice \n 1.Rock \n 2.Paper \n 3.Scissor \n")
     choice = int(input("User turn: "))
     while choice>3 or choice<1:
         choice = int(input("enter valid input: "))
