@@ -40,6 +40,9 @@ while True:
     elif((choice == 1 and comp_choice == 3) or (choice == 3 and comp_choice == 1)):
         print("Rock wins -->", end = " ")
         result = "Rock"
+    elif((choice == 2 and comp_choice == 3) or (choice == 3 and comp_choice == 2)):
+        print("Scissor wins -->", end =" ")
+        result = "Scissor"
     elif((choice == 1 and comp_choice == 1) or (choice == 2 and comp_choice == 2) or (choice == 3 and choice == 3)):
         print("Draw")
     else:
